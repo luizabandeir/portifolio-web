@@ -97,3 +97,74 @@ section {
   display: inline-block;
   margin-left: 4px;
 }
+
+
+main div {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.sobre-mim{
+  position: relative;
+}
+
+.foto-sobre-mim{
+  width: 400px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.527);
+} 
+
+.texto-sobre-mim{
+  font-size: 18px;
+  display: inline-block;
+  width: 480px;
+  vertical-align: top;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+
+.titulo{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+.background-texto{
+  background-color: rgb(82, 151, 179);
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.527);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 6px;
+  width: 45%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 100px;
+}
+
+.background-texto a{
+  color: black;
+}
+
+.icones-habilidades{
+  padding-bottom: 120px;
+}
+
+.margem-caixas{
+  margin: 2%;
+}
+
+.icones-interesses{
+  width: 80px;
+  transition: 0.7s transform;
+}
+
+.icones-interesses:hover{
+  transform: scale(1.2);
+}
+
+.display-informacoes-interesses{
+  display: none;
+}
