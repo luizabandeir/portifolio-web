@@ -84,6 +84,7 @@ section {
   top: 10px;
   left: 60px;
   color: black;
+  font-size: 17px;
 }
 
 .midias{
@@ -116,7 +117,7 @@ main div {
 } 
 
 .texto-sobre-mim{
-  font-size: 18px;
+  font-size: 25px;
   display: inline-block;
   width: 480px;
   vertical-align: top;
@@ -144,12 +145,17 @@ main div {
   height: 100px;
 }
 
+ p{
+  font-size: 22px;
+}
+
 .background-texto a{
   color: black;
 }
 
 .icones-habilidades{
   padding-bottom: 120px;
+  text-align: center;
 }
 
 .margem-caixas{
@@ -158,6 +164,7 @@ main div {
 
 .icones-interesses{
   width: 80px;
+  margin-left: 65px;
   transition: 0.7s transform;
 }
 
@@ -167,4 +174,14 @@ main div {
 
 .display-informacoes-interesses{
   display: none;
+}
+
+footer {
+  height: 180px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+footer p{
+  font-size: 15px;
 }
